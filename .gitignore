@@ -1,0 +1,6 @@
+# large GIS inputs and all derived outputs live outside git
+/dataset/
+__pycache__/
+*.pyc
+.vscode/
+.ipynb_checkpoints/

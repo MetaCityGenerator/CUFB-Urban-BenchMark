@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it together with the CUFB-China data record and the data descriptor."
+title: "CUFB-China: code for county-level urban form metrics and reference bounds"
+type: software
+version: "1.0.0"
+doi: "10.5281/zenodo.XXXXXXX"                     # TODO: Zenodo DOI of the v1.0.0 release
+repository-code: "https://github.com/<org>/<repo>"  # TODO
+date-released: "2026-10-01"                       # TODO
+license: MIT
+authors:                                          # TODO: check order, add ORCIDs
+  - family-names: Yang
+    given-names: Tao
+  - family-names: Zhang
+    given-names: Yue
+  - family-names: Zhang
+    given-names: Xinyue
+  - family-names: Huang
+    given-names: He
+  - family-names: Liu
+    given-names: Pengkun
+  - family-names: Law
+    given-names: Stephen
+  - family-names: Lin
+    given-names: Xuhui
+keywords: [urban form, urban morphology, building footprints, land use, street network, benchmark, China]
+references:
+  - type: dataset
+    title: "CUFB-China v1.0: county-level urban form metrics and reference bounds for China"
+    doi: "10.6084/m9.figshare.XXXXXXX"            # TODO: Figshare DOI
+    authors: [{name: "The CUFB-China authors"}]
