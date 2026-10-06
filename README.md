@@ -1,8 +1,10 @@
+# CUFB-China
+
+**A national reference for comparing the statistical structure of real and generated urban layouts.**
+
 ![CUFB-China overview: open inputs are partitioned into counties, analysed into urban-form metrics and aggregated into a national reference; new layouts enter the same analysis path for conformity scoring and failed-check diagnostics.](assets/overview.png)
 
 *Project overview. Geometries and percentile intervals are schematic. The reference describes observed Chinese county statistics; conformity does not measure urban quality.*
-
-**A national reference for comparing the statistical structure of real and generated urban layouts.**
 
 CUFB-China (**China Urban-Form Benchmark**) combines buildings, land-use parcels and streets into a shared county-level representation. It describes how urban form varies across China and provides an interpretable protocol for identifying where a new layout departs from that reference.
 
