@@ -9,10 +9,6 @@ CUFB-China (**China Urban-Form Benchmark**) combines buildings, land-use parcels
 
 **23.47M county-assigned building footprints · 2,399 reference counties · 17 metric blocks · 110 reference metric keys**
 
-- **Data descriptor:** *County-level urban form metrics and reference bounds for real and generated cities in China*, Scientific Data — **[TODO: final DOI and publication status]**.
-- **Data record:** county tables, reference bounds, starter county, benchmark cases and validation outputs, Figshare — **[TODO: final DOI]**.
-- **Software archive:** code release, Zenodo — **[TODO: final DOI]**.
-
 
 
 
@@ -21,7 +17,7 @@ CUFB-China (**China Urban-Form Benchmark**) combines buildings, land-use parcels
 
 CUFB-China is a county-level urban-form dataset and a structural benchmark. It starts from CMAB building footprints with model-estimated height and construction era, EULUC-China 2.0 land-use parcels and OpenStreetMap streets, partitioned using CTAmap county boundaries.
 
-The workflow covers **2,899 county-level units**. County metrics are released for the **2,585 units with mapped buildings**; the **2,399 counties with at least 1,000 mapped buildings** form the national reference. Here, “county” includes urban districts, county-level cities and other county-level administrative types.
+The workflow covers **2,899 county-level units**. County metrics are released for the **2,399 counties with at least 1,000 mapped buildings** form the national reference. Here, “county” includes urban districts, county-level cities and other county-level administrative types.
 
 Reference percentiles are computed **across counties, with one value per county**, so counties with more buildings do not dominate the bounds. The release includes national p5/p50/p95 statistics, relational direction statistics and province-level bootstrap intervals, together with reference bounds stratified by county type, building count and estimated construction era.
 
