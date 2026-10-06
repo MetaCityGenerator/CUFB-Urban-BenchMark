@@ -4,15 +4,18 @@
 
 CUFB-China (**China Urban-Form Benchmark**) combines buildings, land-use parcels and streets into a shared county-level representation. It describes how urban form varies across China and provides an interpretable protocol for identifying where a new layout departs from that reference.
 
+![CUFB-China overview: open inputs are partitioned into counties, analysed into urban-form metrics and aggregated into a national reference; new layouts enter the same analysis path for conformity scoring and failed-check diagnostics.](assets/overview.png)
+*Project overview. Geometries and percentile intervals are schematic. The reference describes observed Chinese county statistics; conformity does not measure urban quality.*
+
 **23.47M county-assigned building footprints · 2,399 reference counties · 17 metric blocks · 110 reference metric keys**
 
 - **Data descriptor:** *County-level urban form metrics and reference bounds for real and generated cities in China*, Scientific Data — **[TODO: final DOI and publication status]**.
 - **Data record:** county tables, reference bounds, starter county, benchmark cases and validation outputs, Figshare — **[TODO: final DOI]**.
 - **Software archive:** code release, Zenodo — **[TODO: final DOI]**.
 
-![CUFB-China overview: open inputs are partitioned into counties, analysed into urban-form metrics and aggregated into a national reference; new layouts enter the same analysis path for conformity scoring and failed-check diagnostics.](assets/overview.png)
 
-*Project overview. Geometries and percentile intervals are schematic. The reference describes observed Chinese county statistics; conformity does not measure urban quality.*
+
+
 
 ## What is CUFB-China?
 
@@ -269,13 +272,5 @@ python $B/fig_paper.py --out dataset/figures
 
 Analysis parameters are collected in `PARAMS` in `benchmark.py`. Override them with `--param key=value`; non-default values are recorded in `result.json["_params"]`. Random steps use fixed seeds. Comparisons with the released bounds should use the same metric definitions and parameters.
 
-## Citation and licence
-
-Please cite the data descriptor, data record and software archive using `CITATION.cff`, together with the upstream sources:
-
-- **CMAB:** Zhang, Zhao & Long (2025), *Scientific Data* 12, 430.
-- **EULUC-China 2.0:** Li et al. (2025), *Science Bulletin* 70, 3029–3041.
-- **OpenStreetMap:** OpenStreetMap contributors.
-- **CTAmap:** Rui, Zhang & Chen (2025), *Proc. SPIE* 13565.
-
+## Licence
 Code is released under the **MIT licence** (`LICENSE`). Derived tables in the data record use **CC BY 4.0**; redistributed OpenStreetMap geometry remains under **ODbL 1.0**, and other redistributed geometry retains the applicable upstream terms. See the data record’s `LICENSE` for details.
