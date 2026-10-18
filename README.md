@@ -75,7 +75,7 @@ The pinned environment uses Python 3.12 with geopandas 1.1, shapely 2.1, pyogrio
 
 Run the complete analyse–score workflow on a small real county without downloading the nationwide inputs.
 
-1. Download `02_reference_bounds.zip` and `05_starter.zip` from the accompanying Figshare data record.
+1. Download `02_reference_bounds.zip` and `05_starter.zip` from the accompanying Figshare data record (link)[https://figshare.com/articles/dataset/CUFB-China_v1_0_county-level_urban_form_metrics_and_reference_bounds_for_China/34625859].
 2. Extract them so the reference is at `data/02_reference_bounds/` and the starter county is at `data/05_starter/<county-folder>/`.
 3. Run from the repository root:
 
